@@ -24,7 +24,7 @@ int main() {
         double tiempoPromedio = 0;
         int numEjecuciones = 1000;
 
-        std::string resultado; // Cambio el tipo de resultado a string
+        std::string resultado;
 
         for (int i = 0; i < numEjecuciones; ++i) {
             clock_t start_time = clock();
